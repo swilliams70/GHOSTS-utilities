@@ -1,0 +1,238 @@
+[
+  {
+    "id": 1,
+    "name": "Test Group Carnegie",
+    "groupMachines": [
+      {
+        "id": 1,
+        "groupId": 1,
+        "machineId": "e58b2b85-54be-4c96-ab85-a7bd33e6beba"
+      },
+      {
+        "id": 2,
+        "groupId": 1,
+        "machineId": "cfff2d29-3b1f-4765-8997-958b2b490af9"
+      }
+    ],
+    "status": "Active",
+    "machines": [
+      {
+        "id": "e58b2b85-54be-4c96-ab85-a7bd33e6beba",
+        "name": "test1",
+        "fqdn": "test1.fqdn.variable.tld",
+        "domain": "domain",
+        "host": "test1",
+        "resolvedHost": "test1.resolved.host",
+        "hostIp": "0.0.0.0",
+        "ipAddress": "192.168.0.11",
+        "currentUsername": "testuser1",
+        "clientVersion": "2.4.7.0",
+        "history": [],
+        "historyHealth": [],
+        "historyTimeline": [],
+        "historyTrackables": [],
+        "status": "Active",
+        "createdUtc": "2020-03-07T01:55:07.171011",
+        "statusMessage": "Active & Down",
+        "statusUp": "Down",
+        "lastReportedUtc": "0001-01-01T00:00:00"
+      },
+      {
+        "id": "cfff2d29-3b1f-4765-8997-958b2b490af9",
+        "name": "test2",
+        "fqdn": "test2.fqdn.variable.tld",
+        "domain": "domain",
+        "host": "test2",
+        "resolvedHost": "test2.resolved.host",
+        "hostIp": "1.1.1.1",
+        "ipAddress": "192.168.0.12",
+        "currentUsername": "testuser2",
+        "clientVersion": "2.4.7.0",
+        "history": [],
+        "historyHealth": [],
+        "historyTimeline": [],
+        "historyTrackables": [],
+        "status": "Active",
+        "createdUtc": "2020-03-07T01:55:07.171013",
+        "statusMessage": "Active & Down",
+        "statusUp": "Down",
+        "lastReportedUtc": "0001-01-01T00:00:00"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Test Group Mellon",
+    "groupMachines": [
+      {
+        "id": 3,
+        "groupId": 2,
+        "machineId": "af2d3024-5ba0-42ae-988e-647fe4a4c1e8"
+      }
+    ],
+    "status": "Active",
+    "machines": [
+      {
+        "id": "af2d3024-5ba0-42ae-988e-647fe4a4c1e8",
+        "name": "test3",
+        "fqdn": "test3.fqdn.variable.tld",
+        "domain": "domain",
+        "host": "test3",
+        "resolvedHost": "test3.resolved.host",
+        "hostIp": "2.2.2.2",
+        "ipAddress": "192.168.0.13",
+        "currentUsername": "testuser3",
+        "clientVersion": "2.4.7.0",
+        "history": [],
+        "historyHealth": [],
+        "historyTimeline": [],
+        "historyTrackables": [],
+        "status": "Active",
+        "createdUtc": "2020-03-07T01:55:07.171013",
+        "statusMessage": "Active & Down",
+        "statusUp": "Down",
+        "lastReportedUtc": "0001-01-01T00:00:00"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "dco-nh-defended-net-u-alexandra-*",
+    "groupMachines": [
+      {
+        "id": 4,
+        "groupId": 3,
+        "machineId": "6ec5e223-1696-4974-a348-1f8e1f59f7b2"
+      }
+    ],
+    "status": "Active",
+    "machines": [
+      {
+        "id": "6ec5e223-1696-4974-a348-1f8e1f59f7b2",
+        "name": "u-alexandra-ja",
+        "fqdn": "u-alexandra-ja.dco-nh.defended.net",
+        "domain": "dco-nh.defended.net",
+        "host": "u-alexandra-ja",
+        "resolvedHost": "u-alexandra-ja.dco-nh.defended.net",
+        "hostIp": "10.182.20.8",
+        "ipAddress": "::ffff:91.53.182.136",
+        "currentUsername": "alexandra.janecka",
+        "clientVersion": "2.5.2.0",
+        "history": [],
+        "historyHealth": [],
+        "historyTimeline": [],
+        "historyTrackables": [],
+        "status": "Active",
+        "createdUtc": "2020-03-07T01:55:08.647584",
+        "statusMessage": "Active & Up",
+        "statusUp": "Up",
+        "lastReportedUtc": "2020-03-07T20:24:18.416999"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "dco-nh-defended-net-u-*",
+    "groupMachines": [
+      {
+        "id": 5,
+        "groupId": 4,
+        "machineId": "6ec5e223-1696-4974-a348-1f8e1f59f7b2"
+      }
+    ],
+    "status": "Active",
+    "machines": [
+      {
+        "id": "6ec5e223-1696-4974-a348-1f8e1f59f7b2",
+        "name": "u-alexandra-ja",
+        "fqdn": "u-alexandra-ja.dco-nh.defended.net",
+        "domain": "dco-nh.defended.net",
+        "host": "u-alexandra-ja",
+        "resolvedHost": "u-alexandra-ja.dco-nh.defended.net",
+        "hostIp": "10.182.20.8",
+        "ipAddress": "::ffff:91.53.182.136",
+        "currentUsername": "alexandra.janecka",
+        "clientVersion": "2.5.2.0",
+        "history": [],
+        "historyHealth": [],
+        "historyTimeline": [],
+        "historyTrackables": [],
+        "status": "Active",
+        "createdUtc": "2020-03-07T01:55:08.647584",
+        "statusMessage": "Active & Up",
+        "statusUp": "Up",
+        "lastReportedUtc": "2020-03-07T20:24:18.416999"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "dco-nh-defended-net-*",
+    "groupMachines": [
+      {
+        "id": 6,
+        "groupId": 5,
+        "machineId": "6ec5e223-1696-4974-a348-1f8e1f59f7b2"
+      }
+    ],
+    "status": "Active",
+    "machines": [
+      {
+        "id": "6ec5e223-1696-4974-a348-1f8e1f59f7b2",
+        "name": "u-alexandra-ja",
+        "fqdn": "u-alexandra-ja.dco-nh.defended.net",
+        "domain": "dco-nh.defended.net",
+        "host": "u-alexandra-ja",
+        "resolvedHost": "u-alexandra-ja.dco-nh.defended.net",
+        "hostIp": "10.182.20.8",
+        "ipAddress": "::ffff:91.53.182.136",
+        "currentUsername": "alexandra.janecka",
+        "clientVersion": "2.5.2.0",
+        "history": [],
+        "historyHealth": [],
+        "historyTimeline": [],
+        "historyTrackables": [],
+        "status": "Active",
+        "createdUtc": "2020-03-07T01:55:08.647584",
+        "statusMessage": "Active & Up",
+        "statusUp": "Up",
+        "lastReportedUtc": "2020-03-07T20:24:18.416999"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "dco-nh-defended-*",
+    "groupMachines": [
+      {
+        "id": 7,
+        "groupId": 6,
+        "machineId": "6ec5e223-1696-4974-a348-1f8e1f59f7b2"
+      }
+    ],
+    "status": "Active",
+    "machines": [
+      {
+        "id": "6ec5e223-1696-4974-a348-1f8e1f59f7b2",
+        "name": "u-alexandra-ja",
+        "fqdn": "u-alexandra-ja.dco-nh.defended.net",
+        "domain": "dco-nh.defended.net",
+        "host": "u-alexandra-ja",
+        "resolvedHost": "u-alexandra-ja.dco-nh.defended.net",
+        "hostIp": "10.182.20.8",
+        "ipAddress": "::ffff:91.53.182.136",
+        "currentUsername": "alexandra.janecka",
+        "clientVersion": "2.5.2.0",
+        "history": [],
+        "historyHealth": [],
+        "historyTimeline": [],
+        "historyTrackables": [],
+        "status": "Active",
+        "createdUtc": "2020-03-07T01:55:08.647584",
+        "statusMessage": "Active & Up",
+        "statusUp": "Up",
+        "lastReportedUtc": "2020-03-07T20:24:18.416999"
+      }
+    ]
+  }
+]
